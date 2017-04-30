@@ -28,10 +28,13 @@ public enum Config {
             e.printStackTrace();
         }
     }
-
-
     public int getPort() {
         return port;
+    }
+
+    public String toString()
+    {
+        return "Port(" + port + ")";
     }
 
 }
