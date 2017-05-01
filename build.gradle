@@ -9,10 +9,16 @@ repositories {
 
 dependencies {
     compile group: 'org.apache.commons', name: 'commons-configuration2', version: 'latest.release'
+    compile group: 'commons-beanutils', name: 'commons-beanutils', version: 'latest.release'
+
     compile group: 'org.apache.logging.log4j', name: 'log4j-api', version: 'latest.release'
     compile group: 'org.apache.logging.log4j', name: 'log4j-core', version: 'latest.release'
-    compile group: 'commons-beanutils', name: 'commons-beanutils', version: 'latest.release'
-    compile group: 'io.netty', name: 'netty', version: 'latest.release'
+
+    compile group: 'io.netty', name: 'netty-all', version: 'latest.release'
+
+    compile group: 'com.sun.jersey', name: 'jersey-server', version: 'latest.release'
+    compile group: 'com.sun.jersey', name: 'jersey-json', version: 'latest.release'
+    compile group: 'com.sun.jersey', name: 'jersey-servlet', version: 'latest.release'
 
     testCompile group: 'junit', name: 'junit', version: 'latest.release'
 }

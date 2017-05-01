@@ -1,11 +1,13 @@
+package xyz.swwarehouse.now.util;
+
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
 /**
  * Created by WES on 2017-04-30.
  */
-public class Util {
-    private Util(){}
+public class Time {
+    private Time(){}
     public static String Now()
     {
         long time = System.currentTimeMillis();
